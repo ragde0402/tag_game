@@ -31,7 +31,7 @@ for i in range(1001, 2000):
 
 
 # handle all of data transmission with one player
-def handle_client(conn):
+def handle_client(conn, addr):
     connected = True
     personal_id = random.randint(1, 1000000)
     role = random.randint(0, 10)
